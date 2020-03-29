@@ -32,7 +32,7 @@ void output_sine() {
     // for displaying the graph on picoscope for a moment
     
     while (cnt < 1) {
-        for (float i = 0; i < 10; i += 0.001) {
+        for (float i = 0; i < 1; i += 0.0001) {
             // M_PI is the pi value defined in math.h
             Aout = 0.5 + 0.5 * sin(i * 2 * M_PI * output_freq);
             wait(0.001);
